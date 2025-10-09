@@ -1,4 +1,7 @@
 docker-compose up -d
+docker rm -f
+docker volume ls 
+
 
 docker exec -it postgres_container psql -U root -d bd_aula02
 
